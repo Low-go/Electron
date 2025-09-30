@@ -1,0 +1,27 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "Electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Low-go/Electron.git"
+  },
+  "keywords": [
+    "[\"Electron\"",
+    "\"Desktop-app\"]"
+  ],
+  "author": "Lorran Alves Galdino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Low-go/Electron/issues"
+  },
+  "homepage": "https://github.com/Low-go/Electron#readme",
+  "devDependencies": {
+    "electron": "^38.2.0"
+  }
+}
