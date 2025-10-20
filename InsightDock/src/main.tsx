@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import { HashRouter } from 'react-router-dom'
-import { Authprovider } from './Auth/auth.tsx'
+import { Authprovider } from './renderer/contexts/auth.tsx'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
