@@ -4,17 +4,14 @@ import App from './App.tsx'
 import './index.css'
 import { HashRouter } from 'react-router-dom'
 import { Authprovider } from './renderer/contexts/auth.tsx'
-import { ChakraProvider, defaultSystem } from '@chakra-ui/react'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ChakraProvider value={defaultSystem}>
       <HashRouter>
         <Authprovider>
           <App />
         </Authprovider>
       </HashRouter>
-    </ChakraProvider>
   </React.StrictMode>,
 )
 
